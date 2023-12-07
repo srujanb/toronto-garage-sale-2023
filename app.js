@@ -57,9 +57,14 @@ const ProductCard = (props) => {
       "_blank"
     );
 
+  const openPhotosPage = () => {
+    const photosUrl = `photos.html?purchaser=${p.purchaser}`;
+    window.open(photosUrl, "_blank");
+  };
+
   return (
     <div className="product">
-      <a onClick={goWhatsapp} target="_blank">
+      <a onClick={openPhotosPage} target="_blank">
         {p.state == "sold" ? (
           <span className="product-span">
             <div className="sold">SOLD</div>

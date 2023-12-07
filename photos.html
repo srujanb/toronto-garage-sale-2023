@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos</title>
+  <style>
+    /* Add your styling here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .photo {
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-    <!-- Your content goes here -->
+
+  <h1>Photos</h1>
+
+  <div id="photoGrid" class="photo-grid">
+    <!-- Images will be dynamically added here using JavaScript -->
+  </div>
+
+  <script>
+    // Function to extract parameter value from URL
+    const getParameterByName = (name, url) => {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return "";
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    };
+
+    // Get the purchaser information from the URL
+    const purchaser = getParameterByName("purchaser");
+
+    // Fetch image URLs for the purchaser (replace with your logic)
+    const getImageUrlsForPurchaser = (purchaser) => {
+      // Replace this with your actual logic
+      return [
+        `all_img/${purchaser}/image1.jpg`,
+        `all_img/${purchaser}/image2.jpg`,
+        // Add more image URLs as needed
+      ];
+    };
+
+    // Get image URLs for the purchaser
+    const imageUrls = getImageUrlsForPurchaser(purchaser);
+
+    // Create image elements and add them to the photo grid
+    const photoGrid = document.getElementById("photoGrid");
+    imageUrls.forEach((imageUrl, index) => {
+      const imgElement = document.createElement("img");
+      imgElement.src = imageUrl;
+      imgElement.alt = `Photo ${index + 1}`;
+      imgElement.classList.add("photo");
+      photoGrid.appendChild(imgElement);
+    });
+  </script>
+
 </body>
 </html>
