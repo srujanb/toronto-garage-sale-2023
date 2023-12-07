@@ -10,7 +10,7 @@
       "Comes with bulb"
     ],
     "state": "sold",
-    "purchaser": "id"
+    "purchaser": "lamp-big"
   },
   {
     "name": "Small lamp",
@@ -23,7 +23,7 @@
       "Comes with bulb"
     ],
     "state": "sold",
-    "purchaser": "id"
+    "purchaser": "lamp-small"
   },
   {
     "name": "Pink bag",
@@ -37,7 +37,7 @@
       "Looks very cute on kids"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "bag-pink"
   },
   {
     "name": "Black chair",
