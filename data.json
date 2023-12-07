@@ -1,29 +1,5 @@
 [
   {
-    "name": "Black basket",
-    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
-    "imageUrl": "items_img/basket-black.jpeg",
-    "price": 3,
-    "details": [
-      "Usable condition",
-      "Black + blue basket for 5"
-    ],
-    "state": "available",
-    "purchaser": "id"
-  },
-  {
-    "name": "Blue basket",
-    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
-    "imageUrl": "items_img/basket-blue.jpeg",
-    "price": 3,
-    "details": [
-      "Usable condition",
-      "Black + blue basket for 5"
-    ],
-    "state": "available",
-    "purchaser": "id"
-  },
-  {
     "name": "Big lamp",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/lamp-big.jpeg",
@@ -203,6 +179,30 @@
     "price": 20,
     "details": [
       "Good condition"
+    ],
+    "state": "available",
+    "purchaser": "id"
+  },
+  {
+    "name": "Black basket",
+    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
+    "imageUrl": "items_img/basket-black.jpeg",
+    "price": 3,
+    "details": [
+      "Usable condition",
+      "Black + blue basket for 5"
+    ],
+    "state": "available",
+    "purchaser": "id"
+  },
+  {
+    "name": "Blue basket",
+    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
+    "imageUrl": "items_img/basket-blue.jpeg",
+    "price": 3,
+    "details": [
+      "Usable condition",
+      "Black + blue basket for 5"
     ],
     "state": "available",
     "purchaser": "id"

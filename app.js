@@ -59,7 +59,7 @@ const ProductCard = (props) => {
 
   return (
     <div className="product">
-      <a href={p.url} target="_blank">
+      <a onClick={goWhatsapp} target="_blank">
         {p.state == "sold" ? (
           <span className="product-span">
             <div className="sold">SOLD</div>
