@@ -91,7 +91,8 @@
     "details": [
       "Only 6-8 months used",
       "Excellent condition",
-      "No issues at all"
+      "Pickup after 20th December.",
+      "For immediate pickup - $200"
     ],
     "state": "available",
     "purchaser": "desk"
@@ -163,8 +164,8 @@
     "name": "Mirror",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/mirror.jpeg",
-    "originalPrice": 90,
-    "price": 60,
+    "originalPrice": 60,
+    "price": 40,
     "details": [
       "A+ condition",
       "Like new"
