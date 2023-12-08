@@ -54,7 +54,7 @@
     "purchaser": "chair-black"
   },
   {
-    "name": "Comfirt chair",
+    "name": "Comfort chair",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/comfirt-chair.jpeg",
     "originalPrice": 160,
@@ -65,7 +65,7 @@
       "No issues/tears"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "chair-comfort"
   },
   {
     "name": "Couch",
@@ -80,7 +80,7 @@
       "Comes with 4 pillows + 4 covers"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "couch"
   },
   {
     "name": "Standing Desk (electric)",
@@ -94,7 +94,7 @@
       "No issues at all"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "desk"
   },
   {
     "name": "Dining table",
@@ -107,7 +107,7 @@
       "Good condition"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "dining-table"
   },
   {
     "name": "Rotating fan",
@@ -119,7 +119,7 @@
       "3 speed modes"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "fan"
   },
   {
     "name": "Ikea dresser",
@@ -134,7 +134,7 @@
       "Bought in Jan"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "ikea-dresser"
   },
   {
     "name": "Bathroom stool",
@@ -145,7 +145,7 @@
       "Works perfectly fine"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "bathroom-stool"
   },
   {
     "name": "Iron",
@@ -157,7 +157,7 @@
       "Good condition"
     ],
     "state": "hold",
-    "purchaser": "id"
+    "purchaser": "iron"
   },
   {
     "name": "Mirror",
@@ -170,7 +170,7 @@
       "Like new"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "mirror"
   },
   {
     "name": "Night stand with one drawer",
@@ -181,7 +181,7 @@
       "Good condition"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "night-stand-1"
   },
   {
     "name": "Black basket",
@@ -193,7 +193,7 @@
       "Black + blue basket for 5"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "basket-black"
   },
   {
     "name": "Blue basket",
@@ -205,7 +205,7 @@
       "Black + blue basket for 5"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "basket-blue"
   },
   {
     "name": "Night stand with two drawers",
@@ -217,7 +217,7 @@
       "Like new"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "night-stand-2"
   },
   {
     "name": "Plant stand",
@@ -228,7 +228,7 @@
       "Average condition"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "plant stand"
   },
   {
     "name": "Stool",
@@ -272,6 +272,17 @@
       "Very Good condition"
     ],
     "state": "available",
-    "purchaser": "id"
+    "purchaser": "bucket-white"
+  },
+  {
+    "name": "Shoe stand",
+    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
+    "imageUrl": "items_img/shoe-stand.jpeg",
+    "price": 5,
+    "details": [
+      "Very Good condition"
+    ],
+    "state": "available",
+    "purchaser": "shoe-stand"
   }
 ]

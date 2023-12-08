@@ -5,19 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Photos</title>
   <style>
-    /* Add your styling here */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    .photo-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 10px;
-    }
     .photo {
-      width: 100%;
+      max-width: 100%;
       height: auto;
+      margin: 10px;
     }
   </style>
 </head>
@@ -30,41 +21,31 @@
   </div>
 
   <script>
-    // Function to extract parameter value from URL
-    const getParameterByName = (name, url) => {
-      if (!url) url = window.location.href;
-      name = name.replace(/[\[\]]/g, "\\$&");
-      const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-      if (!results) return null;
-      if (!results[2]) return "";
-      return decodeURIComponent(results[2].replace(/\+/g, " "));
-    };
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get the purchaser string from the URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const purchaser = urlParams.get('purchaser');
 
-    // Get the purchaser information from the URL
-    const purchaser = getParameterByName("purchaser");
+      // Fetch HTML content of the folder
+      fetch(`all_img/${purchaser}`)
+        .then(response => response.text())
+        .then(htmlContent => {
+          // Parse the HTML content to extract image filenames
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(htmlContent, 'text/html');
+          const imageFilenames = Array.from(doc.querySelectorAll('a[href$=".jpg"]')).map(a => a.textContent);
 
-    // Fetch image URLs for the purchaser (replace with your logic)
-    const getImageUrlsForPurchaser = (purchaser) => {
-      // Replace this with your actual logic
-      return [
-        `all_img/${purchaser}/image1.jpg`,
-        `all_img/${purchaser}/image2.jpg`,
-        // Add more image URLs as needed
-      ];
-    };
-
-    // Get image URLs for the purchaser
-    const imageUrls = getImageUrlsForPurchaser(purchaser);
-
-    // Create image elements and add them to the photo grid
-    const photoGrid = document.getElementById("photoGrid");
-    imageUrls.forEach((imageUrl, index) => {
-      const imgElement = document.createElement("img");
-      imgElement.src = imageUrl;
-      imgElement.alt = `Photo ${index + 1}`;
-      imgElement.classList.add("photo");
-      photoGrid.appendChild(imgElement);
+          // Create image elements and add them to the photo grid
+          const photoGrid = document.getElementById("photoGrid");
+          imageFilenames.forEach((filename, index) => {
+            const imgElement = document.createElement("img");
+            imgElement.src = `all_img/${purchaser}/${filename}`;
+            imgElement.alt = `Photo ${index + 1}`;
+            imgElement.classList.add("photo");
+            photoGrid.appendChild(imgElement);
+          });
+        })
+        .catch(error => console.error('Error fetching image URLs:', error));
     });
   </script>
 
