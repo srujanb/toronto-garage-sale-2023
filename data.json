@@ -58,7 +58,7 @@
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/comfirt-chair.jpeg",
     "originalPrice": 160,
-    "price": 30,
+    "price": 25,
     "details": [
       "Excellent condition",
       "Lightly used",
@@ -76,6 +76,7 @@
     "details": [
       "Sitonit Ergonomic chair. 4 year used",
       "Original price: 938 (Screenshot attached)",
+      "Super comfirtable",
       "Excellent for work from home",
       "Blue and black"
     ],
@@ -83,13 +84,13 @@
     "purchaser": "chair-blue"
   },
   {
-    "name": "Acer Screen 24-inch",
+    "name": "Acer Screen 27-inch 1080p Full-HD",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/screen-acer.jpeg",
-    "originalPrice": 200,
-    "price": 70,
+    "originalPrice": 360,
+    "price": 90,
     "details": [
-      "24 inch screen",
+      "27 inch full HD screen",
       "Very good condition",
       "No issues."
     ],
@@ -115,8 +116,8 @@
     "name": "Standing Desk (electric)",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/desk.jpeg",
-    "originalPrice": 260,
-    "price": 160,
+    "originalPrice": 300,
+    "price": 180,
     "details": [
       "Only 6-8 months used",
       "Excellent condition",
@@ -143,7 +144,7 @@
     "name": "Rotating fan",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/fan.jpeg",
-    "price": 15,
+    "price": 10,
     "details": [
       "Works perfectly fine",
       "3 speed modes"
@@ -214,25 +215,23 @@
     "purchaser": "night-stand-1"
   },
   {
-    "name": "Black basket",
+    "name": "FREE Black basket",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/basket-black.jpeg",
-    "price": 3,
+    "price": 0,
     "details": [
-      "Usable condition",
-      "Black + blue basket for 5"
+      "Usable condition"
     ],
     "state": "available",
     "purchaser": "basket-black"
   },
   {
-    "name": "Blue basket",
+    "name": "FREE Blue Laundry basket",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/basket-blue.jpeg",
-    "price": 3,
+    "price": 0,
     "details": [
-      "Usable condition",
-      "Black + blue basket for 5"
+      "Usable condition"
     ],
     "state": "available",
     "purchaser": "basket-blue"
@@ -250,12 +249,13 @@
     "purchaser": "night-stand-2"
   },
   {
-    "name": "Plant stand",
+    "name": "Plant stand + Plants + Pots",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/plant-stand.jpeg",
-    "price": 10,
+    "price": 15,
     "details": [
-      "Average condition"
+      "Average condition",
+      "Plants + Pots + Stand all included"
     ],
     "state": "available",
     "purchaser": "plant stand"
@@ -297,7 +297,7 @@
     "name": "White bucket",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/white-bucket.jpeg",
-    "price": 5,
+    "price": 2,
     "details": [
       "Very Good condition"
     ],
