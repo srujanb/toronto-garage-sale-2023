@@ -26,20 +26,6 @@
     "purchaser": "lamp-small"
   },
   {
-    "name": "Pink bag",
-    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
-    "imageUrl": "items_img/bag-pink.jpeg",
-    "originalPrice": 40,
-    "price": 10,
-    "details": [
-      "Unused bag",
-      "For kids and adults",
-      "Looks very cute on kids"
-    ],
-    "state": "available",
-    "purchaser": "bag-pink"
-  },
-  {
     "name": "Black chair",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/black-chair.jpeg",
@@ -224,6 +210,20 @@
     ],
     "state": "available",
     "purchaser": "basket-black"
+  },
+  {
+    "name": "Pink bag",
+    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
+    "imageUrl": "items_img/bag-pink.jpeg",
+    "originalPrice": 40,
+    "price": 10,
+    "details": [
+      "Unused bag",
+      "For kids and adults",
+      "Looks very cute on kids"
+    ],
+    "state": "available",
+    "purchaser": "bag-pink"
   },
   {
     "name": "FREE Blue Laundry basket",
