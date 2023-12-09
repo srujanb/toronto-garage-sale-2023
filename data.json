@@ -68,6 +68,34 @@
     "purchaser": "chair-comfort"
   },
   {
+    "name": "· Sitonit novo ergonomic office chair",
+    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
+    "imageUrl": "items_img/chair-blue.jpeg",
+    "originalPrice": 938,
+    "price": 220,
+    "details": [
+      "Sitonit Ergonomic chair. 3.5 year used",
+      "Original price: 938 (Screenshot attached)",
+      "Excellent for work from home",
+      "Blue and black"
+    ],
+    "state": "available",
+    "purchaser": "chair-blue"
+  },
+  {
+    "name": "Acer Screen 24-inch",
+    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
+    "imageUrl": "items_img/screen-acer.jpeg",
+    "price": 30,
+    "details": [
+      "24 inch screen",
+      "Very good condition",
+      "No issues."
+    ],
+    "state": "available",
+    "purchaser": "screen-acer"
+  },
+  {
     "name": "Couch",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/couch.jpeg",
