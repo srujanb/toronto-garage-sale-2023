@@ -50,7 +50,7 @@
       "Lightly used",
       "No issues/tears"
     ],
-    "state": "available",
+    "state": "hold",
     "purchaser": "chair-comfort"
   },
   {
@@ -135,7 +135,7 @@
       "Works perfectly fine",
       "3 speed modes"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "fan"
   },
   {
@@ -208,7 +208,7 @@
     "details": [
       "Usable condition"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "basket-black"
   },
   {
