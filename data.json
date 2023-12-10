@@ -36,7 +36,7 @@
       "Lightly used",
       "No issues/tears"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "chair-black"
   },
   {
@@ -150,7 +150,7 @@
       "Very lightly used",
       "Bought in Jan"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "ikea-dresser"
   },
   {
@@ -222,7 +222,7 @@
       "For kids and adults",
       "Looks very cute on kids"
     ],
-    "state": "available",
+    "state": "hold",
     "purchaser": "bag-pink"
   },
   {
@@ -301,7 +301,7 @@
     "details": [
       "Very Good condition"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "bucket-white"
   },
   {
@@ -312,7 +312,7 @@
     "details": [
       "Very Good condition"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "shoe-stand"
   }
 ]
