@@ -50,7 +50,7 @@
       "Lightly used",
       "No issues/tears"
     ],
-    "state": "hold",
+    "state": "sold",
     "purchaser": "chair-comfort"
   },
   {
@@ -110,7 +110,7 @@
       "Pickup after 20th December.",
       "For immediate pickup - $200"
     ],
-    "state": "available",
+    "state": "hold",
     "purchaser": "desk"
   },
   {
@@ -173,7 +173,7 @@
     "details": [
       "Good condition"
     ],
-    "state": "hold",
+    "state": "sold",
     "purchaser": "iron"
   },
   {
