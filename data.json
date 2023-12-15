@@ -99,6 +99,24 @@
     "purchaser": "couch"
   },
   {
+    "name": "Mattress + Box",
+    "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
+    "imageUrl": "items_img/mattress.jpeg",
+    "originalPrice": 650,
+    "price": 350,
+    "details": [
+      "Simmons Astoria Eurotop Queen Mattress Set ",
+      "Mattress(10”) + Box(8”)",
+      "Bought for $650. Used for only 3 years.",
+      "Zero bed-bugs issue",
+      "Excellent condition",
+      "No issues/tears",
+      "Pickup on 23rd"
+    ],
+    "state": "available",
+    "purchaser": "mattress"
+  },
+  {
     "name": "Standing Desk (electric)",
     "url": "https://www.homesentry.co/p/sacacorchos-ilko-metalico/",
     "imageUrl": "items_img/desk.jpeg",
