@@ -66,7 +66,7 @@
       "Excellent for work from home",
       "Blue and black"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "chair-blue"
   },
   {
@@ -80,7 +80,7 @@
       "Very good condition",
       "No issues."
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "screen-acer"
   },
   {
@@ -95,7 +95,7 @@
       "No issues/tears",
       "Comes with 4 pillows + 4 covers"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "couch"
   },
   {
@@ -113,7 +113,7 @@
       "No issues/tears",
       "Pickup on 23rd"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "mattress"
   },
   {
@@ -275,7 +275,7 @@
       "Average condition",
       "Plants + Pots + Stand all included"
     ],
-    "state": "available",
+    "state": "sold",
     "purchaser": "plant stand"
   },
   {
